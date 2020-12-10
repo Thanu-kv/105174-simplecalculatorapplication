@@ -1,3 +1,4 @@
+#include <iostream>
 #include "calculator.h"
 
 int main()
@@ -16,51 +17,51 @@ scanf("%d", &operation);
 
 switch(operation)
 {
-       case 1:  printf("Enter first operand\n");
-	        scanf("%d", &number1);
-	        printf("Enter second operand\n");
-	        scanf("%d", &number2);
-	        printf("Result is:%d\n",addition(number1,number2));
+       case 1:  cout << "Enter first operand\n";
+	        cin >> "number1";
+	        cout << "Enter second operand\n";
+	        cin >> "number2";
+	        cout("Result is:%d\n",addition(number1,number2));
 	        break;
     
-	case 2: printf("Enter first operand\n");
-	        scanf("%d", &number1);
-	        printf("Enter second operand\n");
-	        scanf("%d", &number2);
-	        printf("Result is:%d\n",subtraction(number1,number2));
+	case 2: cout << "Enter first operand\n";
+	        cin >> "number1";
+	        cout << "Enter second operand\n";
+	        cin >> "number2";
+	        cout << "subtraction(number1,number2)";
 	        break;
 			
-	case 3: printf("Enter first operand\n");
-	        scanf("%d", &number1);
-	        printf("Enter second operand\n");
-	        scanf("%d", &number2);
-	        printf("Result is:%d\n",multiplication(number1,number2));
+	case 3: cout << "Enter first operand\n";
+	        cin >> "number1";
+	        cout <<"Enter second operand\n";
+	        cin >> "number2";
+	        cout << "multiplication(number1,number2)";
 	        break;
 			
-	case 4: printf("Enter first operand\n");
-	        scanf("%d", &number1);
-	        printf("Enter second operand\n");
-	        scanf("%d", &number2);
-	        printf("Result is:%d\n",division(number1,number2));
+	case 4: cout << "Enter first operand\n";
+	        cin >> "number1";
+	        cout << "Enter second operand\n";
+	        cin >> "number2";
+	        cout << "division(number1,number2)";
 	        break;
 			
-	case 5: printf("Enter first operand\n");
-	        scanf("%d", &number1);
-	        printf("Enter second operand\n");
-	        scanf("%d", &number2);
-	        printf("Result is:%d\n",addition(number1,number2));
+	case 5: cout << "Enter first operand\n";
+	        cin >> "number1";
+	        cout << "Enter second operand\n";
+	        cin >> "number2)";
+	        cout << "addition(number1,number2)";
 	        break;
 			
-	case 6: printf("Enter first operand\n");
-	        scanf("%d", &number1);
-	        printf("Enter second operand\n");
-	        scanf("%d", &number2);
-	        printf("Result is:%d\n",power(number1,number2));
+	case 6: cout << "Enter first operand\n";
+	        cin >> "number1";
+	        cout << "Enter second operand\n";
+	        cin >> "number2";
+	        cout << "power(number1,number2)";
 	        break;
 			
-	case 7: printf("Enter a number\n");
-	        scanf("%d", &number1);
-	        printf("Result is:%d\n",factorial(number1));
+	case 7: cout << "Enter a number\n";
+	        cin >> "number1";
+	        cout << "factorial(number1)";
 	        break;
 			 
 }
