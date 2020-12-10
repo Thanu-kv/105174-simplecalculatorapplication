@@ -59,7 +59,7 @@ int factorial(int number1)
 	long fact=1;
 	if(number1<0)
 	{
-		printf("Enter positive number\n");
+		cout << "Enter positive number\n";
 	}
 	else
 	{ 
