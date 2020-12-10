@@ -1,3 +1,4 @@
+#include <iostream>
 #include <calculator.h>
 
 int addition(int number1,int number2)
