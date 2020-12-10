@@ -5,15 +5,15 @@ int main()
 {
 int operation;
 int number1, number2;
-printf("1. Addition\n");
-printf("2. Subtraction\n");
-printf("3. Multiplication\n");
-printf("4. Division\n");
-printf("5. Modulus\n");
-printf("6. Power\n");
-printf("7. Factorial\n");
+cout << "1. Addition\n";
+cout << "2. Subtraction\n";
+cout << "3. Multiplication\n";
+cout << "4. Division\n";
+cout << "5. Modulus\n";
+cout << "6. Power\n";
+cout << "7. Factorial\n";
 	
-scanf("%d", &operation);
+cin >> "operation";
 
 switch(operation)
 {
