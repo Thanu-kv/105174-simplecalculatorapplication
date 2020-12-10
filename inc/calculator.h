@@ -1,6 +1,7 @@
 #ifndef CALCULATOR_H
 #define CALCULATOR_H
 
+#include <iostream>
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
