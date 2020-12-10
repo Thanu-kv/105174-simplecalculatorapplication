@@ -5,6 +5,8 @@
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
+using namespace std; 
+  
 
 int addition(int number1,int number2);
 int subtraction(int number1,int number2);
