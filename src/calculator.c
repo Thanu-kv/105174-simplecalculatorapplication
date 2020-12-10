@@ -1,5 +1,7 @@
 #include <iostream>
 #include <calculator.h>
+using namespace std; 
+  
 
 int addition(int number1,int number2)
 {
