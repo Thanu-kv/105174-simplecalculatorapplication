@@ -23,47 +23,47 @@ switch(operation)
 	        cin >> number1;
 	        cout << "Enter second operand\n";
 	        cin >> number2;
-	        cout("Result is:%d\n",addition(number1,number2));
+	        cout << "Result is:" << addition(number1,number2);
 	        break;
     
 	case 2: cout << "Enter first operand\n";
 	        cin >> number1;
 	        cout << "Enter second operand\n";
 	        cin >> number2;
-	        cout << "subtraction(number1,number2)";
+	        cout << "Result is:" << subtraction(number1,number2);
 	        break;
 			
 	case 3: cout << "Enter first operand\n";
 	        cin >> number1;
 	        cout <<"Enter second operand\n";
 	        cin >> number2;
-	        cout << "multiplication(number1,number2)";
+	        cout << "Result is:" << multiplication(number1,number2);
 	        break;
 			
 	case 4: cout << "Enter first operand\n";
 	        cin >> number1;
 	        cout << "Enter second operand\n";
 	        cin >> number2;
-	        cout << "division(number1,number2)";
+	        cout << "Result is:" << division(number1,number2);
 	        break;
 			
 	case 5: cout << "Enter first operand\n";
 	        cin >> number1;
 	        cout << "Enter second operand\n";
 	        cin >> number2;
-	        cout << "addition(number1,number2)";
+	        cout << "Result is:" << modulus(number1,number2);
 	        break;
 			
 	case 6: cout << "Enter first operand\n";
 	        cin >> number1;
 	        cout << "Enter second operand\n";
 	        cin >> number2;
-	        cout << "power(number1,number2)";
+	        cout << "Result is:" << power(number1,number2);
 	        break;
 			
 	case 7: cout << "Enter a number\n";
 	        cin >> number1;
-	        cout << "factorial(number1)";
+	        cout << "Result is:" << factorial(number1)";
 	        break;
 			 
 }
